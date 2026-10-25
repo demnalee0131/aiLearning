@@ -35,3 +35,5 @@ print(f'Total lines: {total_lines}')
 print('Top 10 words:')
 for word, count in top_words:
     print(f'{word}: {count}')
+
+#写得不是很好，可以参考claude的版本，使用Counter和正则表达式来统计词频，并且可以处理缩写和大小写问题。
