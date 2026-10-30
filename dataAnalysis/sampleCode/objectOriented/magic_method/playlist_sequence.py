@@ -10,8 +10,8 @@ class Playlist:
     def __getitem__(self, idx):
         return self.songs[idx]
 
-    #def __repr__(self):
-    #    return f"Playlist({len(self)} songs)"
+    def __repr__(self):
+        return f"Playlist({len(self)} songs)"
 
 p = Playlist(["a", "b", "c"])
 print(len(p), p[0], p[-1], p[1:])
